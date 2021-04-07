@@ -25,7 +25,8 @@
     "storybook": "start-storybook"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "styled-components": "^5.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.13.14",
@@ -56,15 +57,13 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "styled-components": "^5.2.3"
   },
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "extendable-style": "^1.0.1",
-    "styled-components": "^5.2.3"
-  },
+  "dependencies": {},
   "resolutions": {
     "styled-components": "^5",
     "babel-loader": "8.1.0"

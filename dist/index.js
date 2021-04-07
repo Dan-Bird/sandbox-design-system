@@ -55,6 +55,12 @@ var typography = "\n  --font-size-large: 5rem;\n  --font-size-medium: 3rem;\n  -
 var fontLarge = function fontLarge() {
   return "\n  font-size: var(--font-size-large);\n  color: var(--secondary-colour);\n";
 };
+var fontSmall = function fontSmall() {
+  return "\n  font-size: var(--font-size-small);\n  color: var(--primary-colour);\n";
+};
+var abrilFatFace = function abrilFatFace() {
+  return "\n  font-family: 'abril_fatface', sans-serif;\n  font-weight: normal;\n  font-style: normal;\n";
+};
 
 var _templateObject;
 var GlobalStyle = styled.createGlobalStyle(_templateObject || (_templateObject = _taggedTemplateLiteralLoose(["\n  :root {\n    ", "\n    ", "\n  }\n"])), colours, typography);
@@ -99,4 +105,9 @@ exports.ExampleComponent = ExampleComponent;
 exports.GlobalStyle = GlobalStyle;
 exports.PrimaryButton = PrimaryButton;
 exports.RedTitle = RedTitle;
+exports.abrilFatFace = abrilFatFace;
+exports.colours = colours;
+exports.fontLarge = fontLarge;
+exports.fontSmall = fontSmall;
+exports.typography = typography;
 //# sourceMappingURL=index.js.map

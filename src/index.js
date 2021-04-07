@@ -8,5 +8,4 @@ export const ExampleComponent = ({ text }) => {
 export { default as GlobalStyle } from './globalStyles';
 export { default as RedTitle } from './components/RedTitle/RedTitle';
 export { default as PrimaryButton } from './components/PrimaryButton/PrimaryButton';
-
-import './design-system';
+export * from './design-system';

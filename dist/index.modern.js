@@ -19,6 +19,15 @@ const fontLarge = () => `
   font-size: var(--font-size-large);
   color: var(--secondary-colour);
 `;
+const fontSmall = () => `
+  font-size: var(--font-size-small);
+  color: var(--primary-colour);
+`;
+const abrilFatFace = () => `
+  font-family: 'abril_fatface', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+`;
 
 let _ = t => t,
     _t;
@@ -87,5 +96,5 @@ const ExampleComponent = ({
   }, "Example Component: ", text);
 };
 
-export { ExampleComponent, GlobalStyle, PrimaryButton, RedTitle };
+export { ExampleComponent, GlobalStyle, PrimaryButton, RedTitle, abrilFatFace, colours, fontLarge, fontSmall, typography };
 //# sourceMappingURL=index.modern.js.map
